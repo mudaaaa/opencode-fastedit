@@ -1,6 +1,6 @@
 {
   "name": "opencode-fastedit",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "OpenCode plugin for fast line-based editing by line numbers",
   "type": "module",
   "main": "index.ts",
