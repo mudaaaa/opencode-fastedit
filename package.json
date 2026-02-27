@@ -1,0 +1,31 @@
+{
+  "name": "opencode-fastedit",
+  "version": "1.0.0",
+  "description": "OpenCode plugin for fast line-based editing by line numbers",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "latest",
+    "diff": "^8.0.2"
+  },
+  "devDependencies": {
+    "@types/diff": "^7.0.2",
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "fastedit"
+  ],
+  "author": "mudaaaa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mudaaaa/opencode-fastedit.git"
+  },
+  "license": "MIT"
+}
